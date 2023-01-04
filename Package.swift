@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "Secp256k1Swift",
             targets: ["Secp256k1Swift"]),
+        .library(
+            name: "BIP32Swift",
+            targets: ["BIP32Swift"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

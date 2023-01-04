@@ -1,5 +1,7 @@
 import XCTest
+
 @testable import Secp256k1Swift
+@testable import BIP32Swift
 
 final class Secp256k1SwiftTests: XCTestCase {
     func testExample() throws {
